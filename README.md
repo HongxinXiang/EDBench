@@ -4,6 +4,12 @@
 
 
 
+## News!
+
+- [2025/05/10] Initialize the repository.
+
+
+
 ## Summary
 
 Existing molecular machine learning force fields (MLFF) focus on the learning of atoms, molecules and simple quantum chemical properties (such as energy and force), but ignore the importance of electron density (ED) $\rho(r)$ in accurately understanding molecular force fields (MFF). ED describes the probability of finding electrons at specific locations around atoms or molecules, which uniquely determines all ground state properties (such as energy, molecular structure, etc.) of interacting multi-particle systems according to the Hohenberg-Kohn theorem. However, the calculation of ED relies on the time-consuming first-principles density functional theory (DFT), which leads to the lack of large-scale ED data and limits its application in MLFFs. 
