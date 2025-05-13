@@ -2,6 +2,10 @@
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/) 
 ![Static Badge](https://img.shields.io/badge/Dataverse-green?logo=docsdotrs&label=Data&link=https%3A%2F%2Fdataverse.harvard.edu%2Fdataverse%2FEDBench)
+<a href="https://github.com/HongxinXiang/EDBench/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/HongxinXiang/EDBench?style=flat-square">
+</a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HongxinXiang/EDBench?style=flat-square">
 
 
 
