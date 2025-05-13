@@ -8,10 +8,24 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HongxinXiang/EDBench?style=flat-square">
 
 
-
-[TOC]
-
 ---
+
+
+## 📁 Project Directory / Table of Contents
+
+- [📢 News](#News)  
+- [🧪 1. Summary](#-1-summary)  
+- [🧬 2. EDBench Database](#-2-edbench-database)  
+- [🧪 3. Benchmark Tasks](#-3-benchmark-tasks)  
+  - [🔮 3.1 Prediction Tasks](#-31-prediction-tasks)  
+  - [🔁 3.2 Retrieval Task](#-32-retrieval-task)  
+  - [🧬 3.3 Generation Task](#-33-generation-task)  
+  - [📂 3.4 Dataset File Format](#-34-dataset-file-format)  
+- [🚀 4. Running Benchmarks](#-4-running-benchmarks)  
+  - [⚛️ 4.1 ED-based Methods](#-41-ed-based-methods)  
+  - [🧠 4.2 MS-based Methods](#-42-ms-based-methods)  
+- [📬 Contact](#-contact)  
+- [📘 License](#-license)
 
 
 
