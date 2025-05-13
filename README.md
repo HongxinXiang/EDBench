@@ -23,13 +23,14 @@
   - [📂 3.4 Dataset File Format](#-34-dataset-file-format)  
 - [🚀 4. Running Benchmarks](#-4-running-benchmarks)  
   - [⚛️ 4.1 ED-based Methods](#-41-ed-based-methods)  
-  - [🧠 4.2 MS-based Methods](#-42-ms-based-methods)  
 - [📬 Contact](#-contact)  
 - [📘 License](#-license)
 
 
 
 ## 📢 News
+
+- **[2025/05/13]** Uploaded code of prediction tasks with X-3D and PointVector.
 
 - **[2025/05/10]** Repository initialized!
 
@@ -203,15 +204,9 @@ Each `raw/` directory includes a `.csv` summary file describing each molecule.
 
 ## 🚀 4. Running Benchmarks
 
-### ⚛️ 4.1 ED-based Methods
+### ⚛️ 4.1 Prediction Tasks
 
-To be released with code.
-
-
-
-### 🧠 4.2 MS-based Methods
-
-To be released with code.
+The code and detailed instructions for running prediction tasks can be found [in this 📂directory](./src/prediction_tasks/PointCloud_code).
 
 
 
