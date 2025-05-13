@@ -13,7 +13,7 @@
 
 ## 📁 Project Directory / Table of Contents
 
-- [📢 News](#News)  
+- [📢 News](#-news)  
 - [🧪 1. Summary](#-1-summary)  
 - [🧬 2. EDBench Database](#-2-edbench-database)  
 - [🧪 3. Benchmark Tasks](#-3-benchmark-tasks)  
