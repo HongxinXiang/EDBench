@@ -120,12 +120,12 @@ Predict quantum chemical properties from ED representations.
 ```
 </details>
 
-| Dataset  | Dir Name              | Link       | Description                                                  |
-|----------|-----------------------|------------|--------------------------------------------------------------|
+| Dataset  | Dir Name              | Link                                                                                         | Description                                                  |
+|----------|-----------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | ED5-EC   | `ed_energy_5w`        | [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YAFDHG) | 6 energy components (DF-RKS Final Energy, Nuclear Repulsion Energy, One-Electron Energy,  Two-Electron Energy, DFT Exchange-Correlation Energy, Total Energy) |
-| ED5-OE   | `ed_homo_lumo_5w`     | *(Coming)* | 7 orbital energies (HOMO-2, HOMO-1, HOMO-0, LUMO+0, LUMO+1, LUMO+2, LUMO+3) |
-| ED5-MM   | `ed_multipole_moments_5w` | *(Coming)* | 4 multipole moment (Dipole X, Dipole Y, Dipole Z, Magnitude) |
-| ED5-OCS  | `ed_open_shell_5w`    | *(Coming)* | Binary classification of open-/closed-shell systems          |
+| ED5-OE   | `ed_homo_lumo_5w`     | [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WVQMJP) | 7 orbital energies (HOMO-2, HOMO-1, HOMO-0, LUMO+0, LUMO+1, LUMO+2, LUMO+3) |
+| ED5-MM   | `ed_multipole_moments_5w` | [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UHLZOE)                                                                                | 4 multipole moment (Dipole X, Dipole Y, Dipole Z, Magnitude) |
+| ED5-OCS  | `ed_open_shell_5w`    | [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XFIK9H)                                                                                | Binary classification of open-/closed-shell systems          |
 
 ---
 
@@ -173,9 +173,9 @@ Generate ED representations from molecular structures.
 ```
 </details>
 
-| Dataset  | Dir Name           | Link       | Description                             |
-|----------|--------------------|------------|-----------------------------------------|
-| ED5-EDP  | `ed_prediction_5w` | *(Coming)* | Predict ED from molecular structures    |
+| Dataset  | Dir Name           | Link | Description                             |
+|----------|--------------------|------|-----------------------------------------|
+| ED5-EDP  | `ed_prediction_5w` | [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SLYBD1) | Predict ED from molecular structures    |
 
 ---
 
