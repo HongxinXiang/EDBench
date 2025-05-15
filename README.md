@@ -235,4 +235,4 @@ Feel free to open an issue or pull request for questions or contributions. For a
 
 ## 📘 License
 
-Released for research use under an open-source license (to be finalized upon publication).
+Released for research use under an open-source MIT license.
