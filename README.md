@@ -1,4 +1,4 @@
-# 🐋 EDBench: Large-Scale Electron Density Data for Machine Learning in Molecular Modeling
+# 🐋 EDBench: Large-Scale Electron Density Data for Molecular Modeling
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/) 
 ![Static Badge](https://img.shields.io/badge/Dataverse-green?logo=docsdotrs&label=Data&link=https%3A%2F%2Fdataverse.harvard.edu%2Fdataverse%2FEDBench)
@@ -50,10 +50,21 @@ Most existing molecular machine learning force fields (MLFFs) focus on atom- or 
 
 We demonstrate that ML models can learn from ED with high accuracy and also generate high-quality ED, dramatically reducing DFT costs. All data and benchmarks will be made publicly available to support ED-driven research in **drug discovery** and **materials science**.
 
-> 📄 **Citation**  
-> _Citation coming soon. Please stay tuned!_
 
-<p align="center">
+> 📄 **Citation**
+>
+> ```bibtex
+> @misc{xiang2025edbenchlargescaleelectrondensity,
+>   title        = {EDBench: Large-Scale Electron Density Data for Molecular Modeling},
+>   author       = {Hongxin Xiang and Ke Li and Mingquan Liu and Zhixiang Cheng and Bin Yao and Wenjie Du and Jun Xia and Li Zeng and Xin Jin and Xiangxiang Zeng},
+>   year         = {2025},
+>   eprint       = {2505.09262},
+>   archivePrefix= {arXiv},
+>   primaryClass = {physics.chem-ph},
+>   url          = {https://arxiv.org/abs/2505.09262}
+> ```
+
+<p>
   <img src="/docs/images/overview.png" width="600">
 </p>
 
