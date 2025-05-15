@@ -64,7 +64,7 @@ We demonstrate that ML models can learn from ED with high accuracy and also gene
 >   url          = {https://arxiv.org/abs/2505.09262}
 > ```
 
-<p>
+<p align="center">
   <img src="/docs/images/overview.png" width="600">
 </p>
 
