@@ -1,12 +1,14 @@
 # 🐋 EDBench: Large-Scale Electron Density Data for Molecular Modeling
 
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/) 
-![Static Badge](https://img.shields.io/badge/Dataverse-green?logo=docsdotrs&label=Data&link=https%3A%2F%2Fdataverse.harvard.edu%2Fdataverse%2FEDBench)
-<a href="https://github.com/HongxinXiang/EDBench/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/HongxinXiang/EDBench?style=flat-square">
-</a>
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+<a href="https://github.com/HongxinXiang/EDBench/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/HongxinXiang/EDBench?style=flat-square"></a>
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HongxinXiang/EDBench?style=flat-square">
+<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=HongxinXiang.EDBench-X&left_color=gray&right_color=orange"></a>
 
+<a href='.'><img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'></a>
+<a href='https://arxiv.org/abs/2505.09262'><img src='https://img.shields.io/badge/Arxiv-2505.09262-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
+<a href='https://www.arxiv.org/pdf/2505.09262.pdf'><img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'></a>
+<a href='https://dataverse.harvard.edu/dataverse/EDBench'><img src='https://img.shields.io/badge/Data-Dataverse-green?style=flat&logo=docsdotrs&logoColor=green'></a>
 
 ---
 
@@ -159,9 +161,9 @@ Cross-modal retrieval between molecular structures (MS) and electron densities (
 ```
 </details>
 
-| Dataset  | Dir Name           | Link       | Description                                    |
-|----------|--------------------|------------|------------------------------------------------|
-| ED5-MER  | `ed_retrieval_5w`  | *(Coming)* | Cross-modal retrieval: MS ↔ ED                |
+| Dataset | Dir Name          | Link                                                         | Description                    |
+| ------- | ----------------- | ------------------------------------------------------------ | ------------------------------ |
+| ED5-MER | `ed_retrieval_5w` | [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CCSJLC) | Cross-modal retrieval: MS ↔ ED |
 
 ---
 
