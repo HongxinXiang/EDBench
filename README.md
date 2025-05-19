@@ -5,10 +5,10 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HongxinXiang/EDBench?style=flat-square">
 <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=HongxinXiang.EDBench-X&left_color=gray&right_color=orange"></a>
 
-<a href='.'><img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'></a>
+<a href='.'><img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=rescript&logoColor=pink'></a>
 <a href='https://arxiv.org/abs/2505.09262'><img src='https://img.shields.io/badge/Arxiv-2505.09262-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
 <a href='https://www.arxiv.org/pdf/2505.09262.pdf'><img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'></a>
-<a href='https://dataverse.harvard.edu/dataverse/EDBench'><img src='https://img.shields.io/badge/Data-Dataverse-green?style=flat&logo=docsdotrs&logoColor=green'></a>
+<a href='https://dataverse.harvard.edu/dataverse/EDBench'><img src='https://img.shields.io/badge/Data-Dataverse-green?style=flat&logo=icloud&logoColor=green'></a>
 
 ---
 
