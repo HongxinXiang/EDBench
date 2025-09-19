@@ -32,6 +32,8 @@
 
 ## 📢 News
 
+- **[2025/09/19]** 🎉 Paper was accepted by _NeurIPS 2025_ !
+
 - **[2025/05/13]** Uploaded code of prediction tasks with X-3D and PointVector.
 
 - **[2025/05/10]** Repository initialized!
