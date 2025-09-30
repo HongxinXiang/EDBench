@@ -33,7 +33,7 @@
 ## TODO
 
 - [ ] Release the full ED dataset (>3M)
-- [ ] Release model checkpoints
+- [x] Release model checkpoints
 - [x] Release model code for quantum property prediction task
 - [x] Release model code for retrieval between molecule and ED task
 - [x] Release model code for ED generation task
