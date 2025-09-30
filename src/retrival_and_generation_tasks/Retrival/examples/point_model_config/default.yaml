@@ -1,0 +1,71 @@
+# Dataset Related
+dataset:
+  num_points: 2048  # number of poins actually used in training and evaluation
+  common:
+    NAME: Density
+  train:
+    name: ed_energy_5w
+    split: train
+    num_points: 2048  # in training, use sampled 1024 points for data augmentation. 
+  val:
+    name: ed_energy_5w
+    split: valid
+    num_points: 2048
+  test:
+    name: ed_energy_5w
+    split: test
+    num_points: 2048
+
+feature_keys: feat
+
+datatransforms:
+  train: [PointsToTensor, PointCloudScaleAndTranslate]  # rotation does not help
+  vote: [PointCloudScaleAndTranslate]
+  val: [PointsToTensor]
+  kwargs:
+    shift: [0.2, 0.2, 0.2]
+batch_size: 32
+dataloader:
+  num_workers: 6
+
+num_classes: 6
+# ---------------------------------------------------------------------------- #
+# Training cfgs
+# ---------------------------------------------------------------------------- #
+# training receipe borrowed from: https://github.com/yanx27/Pointnet_Pointnet2_pytorch
+
+# ---------------------------------------------------------------------------- #
+# Training cfgs
+# ---------------------------------------------------------------------------- #
+# this one is better. 
+sched: cosine
+epochs: 100
+warmup_epochs: 0
+min_lr: null 
+
+# Training parameters
+lr: 0.001
+optimizer:
+ NAME: 'adamw'
+ weight_decay: 0.05 
+
+grad_norm_clip: 1
+
+criterion_args:
+  NAME: MSELoss
+
+# ---------------------------------------------------------------------------- #
+# io and misc
+# ---------------------------------------------------------------------------- #
+log_dir: 'density'
+print_freq: 10
+val_freq: 1
+
+# ----------------- Model related
+val_batch_size: 64
+pretrained_path: null 
+
+wandb:
+  project: PointNeX
+
+seed: 2025

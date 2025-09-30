@@ -24,11 +24,22 @@
   - [🧬 3.3 Generation Task](#-33-generation-task)  
   - [📂 3.4 Dataset File Format](#-34-dataset-file-format)  
 - [🚀 4. Running Benchmarks](#-4-running-benchmarks)  
-  - [⚛️ 4.1 ED-based Methods](#-41-ed-based-methods)  
+  - [⚛️ 4.1 Quantum Prediction Tasks](#-41-quantum-prediction-tasks)  
+  - [⚡ 4.2 Retrieval and Generation Tasks](#-42-retrieval-and-generation-tasks)  
 - [📬 Contact](#-contact)  
 - [📘 License](#-license)
 
 
+## TODO
+
+- [ ] Release the full ED dataset (>3M)
+- [ ] Release model checkpoints
+- [x] Release model code for quantum property prediction task
+- [x] Release model code for retrieval between molecule and ED task
+- [x] Release model code for ED generation task
+- [x] Release benchmark dataset
+
+Note: The full dataset has not been released yet. Due to the increased data volume, we are currently coordinating with data storage providers to handle and host the large-scale data efficiently. Once this is completed, the full dataset will be made publicly available.
 
 ## 📢 News
 
@@ -217,13 +228,38 @@ Each `raw/` directory includes a `.csv` summary file describing each molecule.
 
 ## 🚀 4. Running Benchmarks
 
-### ⚛️ 4.1 Prediction Tasks
+### ⚛️ 4.1 Quantum Prediction Tasks
 
-The code and detailed instructions for running prediction tasks can be found [in this 📂directory](./src/prediction_tasks/PointCloud_code).
+**Description:**  
+
+This task focuses on predicting quantum properties of molecules using point-cloud representations of electronic density. It is designed to evaluate how accurately models can capture molecular electronic behavior and properties.
+
+| Task                     | Datasets                                                     | Code                                                         | Checkpoint                                                   |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Quantum Prediction Tasks | **ED5-EC**: 6 energy components<br />**ED5-OE**: 7 orbital energies<br />**ED5-MM**: 4 multipole moment<br />**ED5-OCS**: open-/closed-shell classification | [Code 📂](./src/quantum_property_prediction_tasks/PointCloud_code) | [Download]([quantum_property_prediction_tasks](https://1drv.ms/f/c/53030532e7d1aed6/EmnQzcCAcs9HtxG47y8yuj8Bh-gPY_rNc6EugPd80A4v5w?e=PZp9Do)) |
+
+---
+
+### ⚡ 4.2 Retrieval and Generation Tasks
+
+**Description:**  
+
+This task involves two objectives:  
+
+1. Retrieval between molecular structures and their electronic densities.  
+2. Predicting electronic densities from molecular conformations.  
+
+These tasks assess the model’s ability to connect molecular structures with their electron distributions and to generate accurate electronic density predictions.
+
+| Task                           | Description                                                  | Code                                          | Checkpoint                                                   |
+| ------------------------------ | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
+| Retrieval and Generation Tasks | **ED5-MER**: Retrieval between molecular structures and ED<br/>**ED5-EDP**: Electronic density prediction | [Code 📂](./src/retrival_and_generation_tasks) | [Download](https://1drv.ms/f/c/53030532e7d1aed6/EubMp-Y5cGJDokOu1XJbKbsBqvOmvoR_-8v82FH9SI5K_g?e=KesJNu) |
 
 
 
 ---
+
+
 
 
 

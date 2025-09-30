@@ -13,3 +13,41 @@ experiments/
 no_submission*
 # Project exclude paths
 /datasets/
+
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# User directories
+Local
+
+# .DS_Store
+.DS_Store
+
+# VIM swap files
+*.swp
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
