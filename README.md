@@ -91,6 +91,12 @@ We demonstrate that ML models can learn from ED with high accuracy and also gene
 
 Built on PCQM4Mv2, the EDBench dataset contains accurate DFT-computed EDs for **3.3M+ molecules**, enabling deep learning at the electronic scale.
 
+| Component   | Description                                            | Link                                                         |
+| ----------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| 📂 Full data | DFT-computed electron density data for 3.3M+ molecules | [[Baidu Drive](https://pan.baidu.com/s/1VNoN8Uwo5XCyzk7z19X7Rg?pwd=yxy4)] |
+
+
+
 ---
 
 
