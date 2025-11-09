@@ -65,19 +65,28 @@ Most existing molecular machine learning force fields (MLFFs) focus on atom- or 
 
 We demonstrate that ML models can learn from ED with high accuracy and also generate high-quality ED, dramatically reducing DFT costs. All data and benchmarks will be made publicly available to support ED-driven research in **drug discovery** and **materials science**.
 
-
 > 📄 **Citation**
 >
 > ```bibtex
-> @misc{xiang2025edbenchlargescaleelectrondensity,
->   title        = {EDBench: Large-Scale Electron Density Data for Molecular Modeling},
->   author       = {Hongxin Xiang and Ke Li and Mingquan Liu and Zhixiang Cheng and Bin Yao and Wenjie Du and Jun Xia and Li Zeng and Xin Jin and Xiangxiang Zeng},
->   year         = {2025},
->   eprint       = {2505.09262},
->   archivePrefix= {arXiv},
->   primaryClass = {physics.chem-ph},
->   url          = {https://arxiv.org/abs/2505.09262}
+> @inproceedings{xiang2025edbenchneurips,
+>   title         = {EDBench: Large-Scale Electron Density Data for Molecular Modeling},
+>   author        = {Hongxin xiang and Ke Li and Mingquan Liu and Zhixiang Cheng and Bin Yao and Wenjie Du and Jun Xia and Li Zeng and Xin Jin and Xiangxiang Zeng},
+>   booktitle     = {The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+>   year          = {2025},
+>   url           = {https://openreview.net/forum?id=pAd7qVrYPG}
+> }
+> 
+> @misc{xiang2025edbench,
+>   title         = {EDBench: Large-Scale Electron Density Data for Molecular Modeling},
+>   author        = {Xiang, Hongxin and Li, Ke and Liu, Mingquan and Cheng, Zhixiang and Yao, Bin and Du, Wenjie and Xia, Jun and Zeng, Li and Jin, Xin and Zeng, Xiangxiang},
+>   year          = {2025},
+>   eprint        = {2505.09262},
+>   archivePrefix = {arXiv},
+>   primaryClass  = {physics.chem-ph},
+>   url           = {https://arxiv.org/abs/2505.09262}
+> }
 > ```
+
 
 <p align="center">
   <img src="/docs/images/overview.png" width="600">
