@@ -39,8 +39,6 @@
 - [x] Release model code for ED generation task
 - [x] Release benchmark dataset
 
-Note: The full dataset has not been released yet. Due to the increased data volume, we are currently coordinating with data storage providers to handle and host the large-scale data efficiently. Once this is completed, the full dataset will be made publicly available.
-
 ## 📢 News
 
 - **[2025/09/19]** 🎉 Paper was accepted by _NeurIPS 2025_ !
